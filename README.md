@@ -26,3 +26,9 @@ drive + code info (by: Guy Lavi & Vered Wolfman):
    * transfer_learning_2 -  creates and trains the syllable-classification model, and saves its trained weights in 'model_weights.h5'  
    
 ### 4. Data arrangement for statistics:  
+   In order to create statistics, additional to the ones made by Guy * Vered (2021), the wanted recordings' folders need to be ordered in a manner matching the attached .xls file (from Hava's lab or segmentation algorithm), and the code creating the statistics. The recordings must be ordered:
+   - main folder containing all files and folders (can use E: or create new)
+   - sub-folders named after the mother, matching the .xls file
+   - sub-folders named after the cub, matching the .xls file
+   - matching recordings according to each cub's files
+   (use these examples: 'total_data_recordings', 'data_united_recordings')
