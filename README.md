@@ -4,7 +4,7 @@ Includes code file from several projects, aimed at detecting ASD symptoms in mic
 > October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.
 
 
-drive + code info (by: Guy Lavi & Vered Wolfman):
+## drive + code info (by: Guy Lavi & Vered Wolfman):
 ### 1. E: + Recordings_Ella_Ayelet:  
    Recordings of the mice, along with the syllable classification in the excel files.  
     The recordings are filed by the mother's name, with sub-directories named by the cub's name. Inside are the recordings.  
