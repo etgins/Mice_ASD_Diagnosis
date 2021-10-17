@@ -24,3 +24,5 @@ drive + code info (by: Guy Lavi & Vered Wolfman):
    \- statistics_generator -   performs the above code files, but the saved array contains and object for each full recording with its details and the model's classification of its syllables  
    \- statistics test - performs chi-squared tests and creates the graphs for the syllable distribution  
    \- transfer_learning_2 - creates and trains the syllable-classification model, and saves its trained weights in 'model_weights.h5'  
+   
+4. Data arrangement for statistics:  
