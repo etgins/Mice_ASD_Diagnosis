@@ -19,4 +19,4 @@ drive + code info (by: Guy Lavi & Vered Wolfman):
     Some code files contain classification models we implemented, or were implemented in previous projects.  
 > April 2020: As of today, the codes are not organized and contain irrelevant fields, or ones meant to display for the user.  
     
-    - data_creation - uses the excel file /TODO: find name of file/ to trim syllables from full recording and save separate copy of the syllable only.
+    /- data_creation - uses the excel file /TODO: find name of file/ to trim syllables from full recording and save separate copy of the syllable only.
