@@ -4,11 +4,16 @@ Includes code file from several projects, aimed at detecting ASD symptoms in mic
 
 drive + code info (by: Guy Lavi & Vered Wolfman):
 1. E: + Recordings_Ella_Ayelet:
-    recordings of the mice, along with the syllable classification in the excel files.
-    The recordings are filed by the mother's name, with sub-directories named by the cub's name.
+    Recordings of the mice, along with the syllable classification in the excel files.
+    The recordings are filed by the mother's name, with sub-directories named by the cub's name. Inside are the recordings.
+    Some E: sub-directories have intermediate folders, such as 'day' or 'session'.
     
+2. Segmented syllables:
+    Two folders, ending with 'syllable', include segmented recordings of one syllable each, at length of 0.25 seconds, organized according to the excel files.
+    There are also .npy files, containing an array of the spectograms of the syllables, and an array of mathching tags.
     
+3. Codes:
+    The attached codes are made to create the data: segmentation of the recordings and saving in the folders, and creation of the .npy files.
+    Some code files contain classification models we implemented, or were implemented in previous projects.
+    #April 2020: As of today, the codes are not organized and contain irrelevant fields, or ones meant to display for the user.
     
-    
-הקלטות:
-בתקיות E: ו-Recordings_Ella_Ayelet תמצאו תקיות המכילות הקלטות מלאות של עכברים אשר רובן מסווגות, והסיווגים ומידע נוסף על ההברות המופיעות בהקלטות ימצאו בקבצי האקסל המצורפים. ההקלטות מסודרות לפי תיקיות עם שם האמא, ובתוכן תיקיות עם שם הגור ובהן ההקלטות. בחלק מהתיקיות בE מופיעות תיקיות ביניים, כגון day או session.
