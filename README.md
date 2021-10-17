@@ -15,5 +15,5 @@ drive + code info (by: Guy Lavi & Vered Wolfman):
 3. Codes:  
     The attached codes are made to create the data: segmentation of the recordings and saving in the folders, and creation of the .npy files.  
     Some code files contain classification models we implemented, or were implemented in previous projects.  
-    #April 2020: As of today, the codes are not organized and contain irrelevant fields, or ones meant to display for the user.  
+    > April 2020: As of today, the codes are not organized and contain irrelevant fields, or ones meant to display for the user.  
     
