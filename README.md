@@ -18,5 +18,9 @@ drive + code info (by: Guy Lavi & Vered Wolfman):
     The attached codes are made to create the data: segmentation of the recordings and saving in the folders, and creation of the .npy files.  
     Some code files contain classification models we implemented, or were implemented in previous projects.  
 > April 2020: As of today, the codes are not organized and contain irrelevant fields, or ones meant to display for the user.  
-    
-    \- data_creation - uses the excel file /TODO: find name of file/ to trim syllables from full recording and save separate copy of the syllable only.
+
+\- data_creation -          uses the excel file /TODO: find name of file/ to trim syllables from full recording and save separate copy of the syllable only.  
+\- spect_creation -         uses the trimmed syllables folder to create an array of spectograms (+ filtering) for the model training.  
+\- statistics_generator -   performs the above code files, but the saved array contains and object for each full recording with its details and the model's classification of its syllables  
+\- statistics test - performs chi-squared tests and creates the graphs for the syllable distribution  
+\- transfer_learning_2 - creates and trains the syllable-classification model, and saves its trained weights in 'model_weights.h5'  
