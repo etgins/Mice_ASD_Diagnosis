@@ -1,9 +1,3 @@
-EE B.SC Final Project A @ Technion
-Our goal is to successfully classify mice displaying ASD symptoms, using audio-analysis of their squeaks and Deep-Learning methods.
-The project is done as part of a research aiming to use these results to diagnose ASD in humans through analysis of baby cries, at an early age and in an objective and precise manner.
-In collaboration with Dr. Dror Lederman and Prof. Hava Golan, through the Golan lab for neuro-developmental disorders @ BGU.
-
-
 # Mice_ASD_Detection
 
 Includes code file from several projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
