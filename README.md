@@ -1,6 +1,6 @@
 # Mice_ASD_Detection
 
-Includes code file from several projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
+Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
 > October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.
 
 
