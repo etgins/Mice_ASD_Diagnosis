@@ -3,7 +3,12 @@
 Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
 > October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.
 
---- ** to regenerate results, run transfer_learning_2nd.ipynb as main file **
+## Result regeneration:
+#### - Syllable Classification: run transfer_learning_2nd.ipynb
+#### - Final Classification: run audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb (extracts features from total_data UPDATED EM 020821.xlsx) and then run final_classification.ipynb.
+
+
+
 
 ## drive + code info (by: Guy Lavi & Vered Wolfman):
 ### 1. E: + Recordings_Ella_Ayelet:  
