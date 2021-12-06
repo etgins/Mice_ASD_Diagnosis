@@ -1,20 +1,26 @@
 # Mice_ASD_Detection
 
 Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
-> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'  
+> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.  All files written previous to our project are zipped and saved as "Project_Freeze_Sep2021_code_files.zip"
+  
 > December 2021: Finishing our project - after syllable classification, we extracted additional features and developed an XGBoost model to predict genotype of each mouse, succeeding with accuracy of 81%.
 
-## Result regeneration:
-#### - Syllable Classification: run transfer_learning_2nd.ipynb
-#### - Final Classification: run audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb (extracts features from total_data UPDATED EM 020821.xlsx) and then run final_classification.ipynb.
+<img src="https://github.com/etgins/Mice_ASD_Detection/blob/main/project_description.png">
+
+## Project Result regeneration:
+#### - Syllable Classification (previous projects): 
+   * run transfer_learning_2nd.ipynb
+#### - Final Classification: 
+   * run audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb 
+      * extracts features from total_data UPDATED EM 020821.xlsx
+   * then run final_classification.ipynb.
 
 
-
-
-## drive + code info (by: Guy Lavi & Vered Wolfman):
+## Google Drive + Code files info (by: Guy Lavi & Vered Wolfman):
 ### 1. E: + Recordings_Ella_Ayelet:  
    Recordings of the mice, along with the syllable classification in the excel files.  
-    The recordings are filed by the mother's name, with sub-directories named by the cub's name. Inside are the recordings.  
+    The recordings are filed by the mother's name, with sub-directories named by the cub's name. Inside are the recordings.
+
     Some E: sub-directories have intermediate folders, such as 'day' or 'session'.  
     
 ### 2. Segmented syllables:  
