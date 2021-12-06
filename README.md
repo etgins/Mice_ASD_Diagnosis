@@ -2,6 +2,7 @@
 
 Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
 > October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.
+> 
 > December 2021: Finishing our project - after syllable classification, we extracted additional features and developed an XGBoost model to predict genotype of each mouse, succeeding with accuracy of 81%.
 
 ## Result regeneration:
