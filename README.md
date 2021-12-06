@@ -7,6 +7,24 @@ Includes code file from several consecutive projects, aimed at detecting ASD sym
 
 <img src="https://github.com/etgins/Mice_ASD_Detection/blob/main/project_description.png">
 
+## File Descriptions
+- Project_Freeze_Sep2021_code_files.zip: 
+  - archive of all previous projects before our own. Includes data and code files for segmentation and classification of syllables.
+- Statistics_generator.ipynb:
+  - Generates statistics over data (previous projects).
+- Transfer_learning_2nd.ipynb:
+  - Used to classify the syllables in each segmented recording (previous projects).
+- audio_feature_extraction.ipynb: 
+  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. NOTE: in this file, all samples from each mouse are reduced to a single sample with mean features.
+- audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb: 
+  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. NOTE: in this file, all samples from each mouse are reduced to a single sample PER RECORDING NUMBER with mean features.
+- final_classification.ipynb:
+  - XGBoost model - training and testing on processed_data_for_final_classification.csv. Predicts genotype of each mouse (WT / HT).
+- processed_data_for_final_classification.csv:
+  - data AFTER feature extraction, ready to be input to final_classification.ipynb.
+- total_data UPDATED EM 020821.xlsx:
+  - tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction.
+
 ## Project Result regeneration:
 #### - Syllable Classification (previous projects): 
    * run transfer_learning_2nd.ipynb
@@ -14,7 +32,6 @@ Includes code file from several consecutive projects, aimed at detecting ASD sym
    * run audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb 
       * extracts features from total_data UPDATED EM 020821.xlsx
    * then run final_classification.ipynb.
-
 
 ## Google Drive + Code files info (by: Guy Lavi & Vered Wolfman):
 ### 1. E: + Recordings_Ella_Ayelet:  
