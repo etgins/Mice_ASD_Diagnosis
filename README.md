@@ -1,10 +1,10 @@
 # Mice_ASD_Detection
 
 Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
-> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.  All files written previous to our project are zipped and saved as "Project_Freeze_Sep2021_code_files.zip"
-  
 > December 2021: Finishing our project - after syllable classification, we extracted additional features and developed an XGBoost model to predict genotype of each mouse, succeeding with accuracy of 81%.
 
+> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.  All files written previous to our project are zipped and saved as "Project_Freeze_Sep2021_code_files.zip"
+  
 <img src="https://github.com/etgins/Mice_ASD_Detection/blob/main/project_description.png">
 
 ## File Descriptions
