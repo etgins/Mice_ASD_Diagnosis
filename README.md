@@ -32,7 +32,10 @@ Includes code file from several consecutive projects, aimed at detecting ASD sym
       * extracts features from total_data UPDATED EM 020821.xlsx
    * then run final_classification.ipynb.
 
-## Google Drive + Code files info (by: Guy Lavi & Vered Wolfman):
+
+
+
+## Google Drive + Code files info (written by: Guy Lavi & Vered Wolfman):
 ### 1. E: + Recordings_Ella_Ayelet:  
    Recordings of the mice, along with the syllable classification in the excel files.  
     The recordings are filed by the mother's name, with sub-directories named by the cub's name. Inside are the recordings.
