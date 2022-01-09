@@ -13,16 +13,16 @@ Includes code file from several consecutive projects, aimed at detecting ASD sym
 ## File Descriptions
 
 
-|File name         | Description | Archive/Version | Notes
-|----------------------|------|----|---|
+|File name | Description | Archive/Version | Notes
+|-|-|-|----------------|
 |`Project_Freeze_Sep2021_code_files.zip`|Archive of all previous projects before our own. Includes data and code files for segmentation and classification of syllables. | Archive|
 |`Statistics_generator.ipynb`|Generates statistics over data (previous projects)| Archive |
 |`Transfer_learning_2nd.ipynb`|Used to classify the syllables in each segmented recording (previous projects)| Archive |
-|`audio_feature_extraction.ipynb`|  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. | Archive |In this file, all samples from each mouse are reduced to a single sample with mean features.
-|`audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb`| python code for feature extraction from total_data UPDATED EM 020821.xlsx| Version:Final |In this file, all samples from each mouse are reduced to a single sample PER RECORDING NUMBER with mean features.
-|`final_classification.ipynb`| XGBoost model - training and testing on processed_data_for_final_classification.csv. Predicts genotype of each mouse (WT / HT).| Version:Final |
-|`processed_data_for_final_classification.csv`| data AFTER feature extraction, ready to be input to final_classification.ipynb | ??? |
-|`total_data UPDATED EM 020821.xlsx`| tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction. | ??? |
+|`audio_feature_extraction.ipynb`| feature extraction from total_data UPDATED EM 020821.xlsx. | Archive |In this file, all samples from each mouse are reduced to a single sample with mean features.
+|`audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb`| feature extraction from total_data UPDATED EM 020821.xlsx| Version: Final |In this file, all samples from each mouse are reduced to a single sample PER RECORDING NUMBER with mean features.
+|`final_classification.ipynb`| XGBoost model - training and testing on processed_data_for_final_classification.csv. Predicts genotype of each mouse (WT / HT).| Version: Final |
+|`processed_data_for_final_classification.csv`| Data AFTER feature extraction, ready to be input to final_classification.ipynb | ??? |
+|`total_data UPDATED EM 020821.xlsx`| Tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction. | ??? |
 
 ## Project Result regeneration:
 #### - Syllable Classification (previous projects): 
