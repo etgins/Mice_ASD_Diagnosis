@@ -1,29 +1,28 @@
 # Mice_ASD_Detection
 
 Includes code file from several consecutive projects, aimed at detecting ASD symptoms in mice, using analysis of their squeaks
-> December 2021: Finishing our project - after syllable classification, we extracted additional features and developed an XGBoost model to predict genotype of each mouse, succeeding with accuracy of 81%.
+> January 2022: Final improvements - after performing L1 + L2 regularization and further tuning of hyper-parameters, we achieved a final accuracy of 88%.
 
-> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.  All files written previous to our project are zipped and saved as "Project_Freeze_Sep2021_code_files.zip"
+> December 2021: Further Improvements - after syllable classification, we extracted additional features and developed an XGBoost model to predict genotype of each mouse, succeeding with accuracy of 81%.
+
+> October 2021: Starting move of files from google drive 'USV_Project_2021' to Github repository 'Mice_ASD_Detection'.  
+> All files written previous to our project are zipped and saved as "Project_Freeze_Sep2021_code_files.zip"
   
 <img src="https://github.com/etgins/Mice_ASD_Detection/blob/main/project_description.png">
 
 ## File Descriptions
-- Project_Freeze_Sep2021_code_files.zip: 
-  - archive of all previous projects before our own. Includes data and code files for segmentation and classification of syllables.
-- Statistics_generator.ipynb:
-  - Generates statistics over data (previous projects).
-- Transfer_learning_2nd.ipynb:
-  - Used to classify the syllables in each segmented recording (previous projects).
-- audio_feature_extraction.ipynb: 
-  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. NOTE: in this file, all samples from each mouse are reduced to a single sample with mean features.
-- audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb: 
-  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. NOTE: in this file, all samples from each mouse are reduced to a single sample PER RECORDING NUMBER with mean features.
-- final_classification.ipynb:
-  - XGBoost model - training and testing on processed_data_for_final_classification.csv. Predicts genotype of each mouse (WT / HT).
-- processed_data_for_final_classification.csv:
-  - data AFTER feature extraction, ready to be input to final_classification.ipynb.
-- total_data UPDATED EM 020821.xlsx:
-  - tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction.
+
+
+|File name         | Description | Archive/Current | Notes
+|----------------------|------|----|---|
+|`Project_Freeze_Sep2021_code_files.zip`|Archive of all previous projects before our own. Includes data and code files for segmentation and classification of syllables. | Archive|
+|`Statistics_generator.ipynb`|Generates statistics over data (previous projects)| Archive |
+|`Transfer_learning_2nd.ipynb`|Used to classify the syllables in each segmented recording (previous projects)| Archive |
+|`audio_feature_extraction.ipynb`|  - python code for feature extraction from total_data UPDATED EM 020821.xlsx. | Archive |In this file, all samples from each mouse are reduced to a single sample with mean features.
+|`audio_feature_extraction_REDUCTION_BY_RECORDING.ipynb`| python code for feature extraction from total_data UPDATED EM 020821.xlsx| Current |In this file, all samples from each mouse are reduced to a single sample PER RECORDING NUMBER with mean features.
+|`final_classification.ipynb`| XGBoost model - training and testing on processed_data_for_final_classification.csv. Predicts genotype of each mouse (WT / HT).| Current |
+|`processed_data_for_final_classification.csv`| data AFTER feature extraction, ready to be input to final_classification.ipynb | ??? |
+|`total_data UPDATED EM 020821.xlsx`| tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction. | ???
 
 ## Project Result regeneration:
 #### - Syllable Classification (previous projects): 
