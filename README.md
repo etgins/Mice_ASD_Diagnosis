@@ -25,6 +25,8 @@ Includes code file from several consecutive projects, aimed at detecting ASD sym
 |`Archive/Transfer_learning_2nd.ipynb`|Used to classify the syllables in each segmented recording (previous projects)| Archive |
 |`audio_feature_extraction.ipynb`| feature extraction from total_data UPDATED EM 020821.xlsx. | Archive | In this file, all samples from each mouse are reduced to a single sample with mean features.
 |`total_data UPDATED EM 020821.xlsx`| Tagged data of each syllable recording after segmentation and classification (done in previous projects). Used as input for feature_extraction. | Archive | Original data used early in the project. Later replaced by complete_data_131221.xlsx
+|`Project_Presentation_Slides.pptx`| Final presentation of the project to SIPL lab staff @ Technion | Version: Final | 
+|`Project_Report_Hebrew.pdf`| Project report submitted of the project to SIPL lab staff @ Technion | Version: Final | 
 
 
 ## Project Result regeneration:
